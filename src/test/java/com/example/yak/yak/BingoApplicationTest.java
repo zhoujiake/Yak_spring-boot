@@ -19,7 +19,6 @@ public class BingoApplicationTest {
 	@Autowired
     private DatebaseService datebaseService;
 	
-		
 		@Test
 	    public void page(){
 	        List<Datebase> datebaseList =  datebaseService.findDatebaseList();

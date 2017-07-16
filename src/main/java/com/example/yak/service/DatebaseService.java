@@ -10,3 +10,15 @@ public interface DatebaseService {
 	List<Datebase> findDatebaseList();
 
 }
+
+
+
+
+
+
+
+
+
+
+
+

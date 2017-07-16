@@ -11,8 +11,26 @@ public class Login {
 	    @RequestMapping("/getUser")
 	    public User getUser() {
 	    	User user=new User();
-	    	user.setUserName("С��");
+	    	user.setUserName("C");
 	    	user.setPassWord("xxxx");
 	        return user;
 	    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

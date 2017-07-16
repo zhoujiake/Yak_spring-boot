@@ -8,5 +8,22 @@ public class YakApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(YakApplication.class, args);
+		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
