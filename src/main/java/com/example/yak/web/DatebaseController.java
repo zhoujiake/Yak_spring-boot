@@ -10,7 +10,6 @@ import com.example.yak.service.DatebaseService;
 
 
 @Controller
-@RequestMapping("/templates/")
 public class DatebaseController {
 
 	@Autowired
@@ -18,11 +17,8 @@ public class DatebaseController {
 
     @RequestMapping("/page")
     public String page(){
-        /*List<Datebase> datebaseList =  datebaseService.findDatebaseList();
-        ModelAndView mav = new ModelAndView("/datebase/datebase1");
-        mav.addObject("test",datebaseList.get(0));*/
-    	System.out.println("--------->"+"---------->");
-        return "index.html";
+    	
+        return "Login";
     }
 }
 
